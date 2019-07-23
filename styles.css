@@ -1,7 +1,64 @@
-p {
-    color: red;
+header {
+    position: absolute;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
   }
   
-  div{
-    align: bottom;
+  
+  ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: left;
+  }
+  
+  li {
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    opacity: 0.75;
+    display: inline-block;
+    width: 50px;
+  }
+  
+  .logo {
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    top: 50px;
+  }
+  
+  input {
+   
+    font-style: normal;
+      font-variant-ligatures: normal;
+      font-variant-caps: normal;
+      font-variant-numeric: normal;
+      font-weight: normal;
+      font-stretch: normal;
+      font-size: 16px;
+      line-height: 34px;
+      font-family: arial, sans-serif;
+    
+    line-height: 34px;
+      height: 34px !important;
+    
+    border: 1px solid black;
+    border-radius: 24px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+        padding-top: 5px;
+      padding-right: 8px;
+      padding-bottom: 0px;
+      padding-left: 20px;
+      border-color: rgb(223, 225, 229);
+    height: 44px;
+      margin-right: auto;
+      margin-left: auto;
+       width: 584px;
+    outline-width: 0;
   }
